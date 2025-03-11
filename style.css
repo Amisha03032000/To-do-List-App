@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #374f7f;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    background: #efefef;
+    
+    padding: 8px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 3px;
+}
+.remove-btn {
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 3px;
+}
+
+#itemInput{
+    padding: 6px;
+    margin: 10px;
+}
+
+#submit-btn{
+    padding: 6px;
+    margin-left: 0px;
+}

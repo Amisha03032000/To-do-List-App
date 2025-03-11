@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make your own list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2 class="header" style="color: white;">To Do List</h2>
+        
+        <form id="itemForm">
+            <label for="itemInput" style="color: white;">Enter Item:</label>
+            <input type="text" id="itemInput" placeholder="Type something..." required>
+            <button type="submit" id="submit-btn">Add Item</button>
+        </form>
+
+        <h3 style="color: white;" >Item List:</h3>
+        <ul id="itemList">
+            <li>Take dogs on walk!!
+            <button class="remove-btn">X</button>
+            </li> 
+        </ul>
+        <p></p>
+    </div>
+
+    <script src="app.js"> </script>
+
+</body>
+</html>
